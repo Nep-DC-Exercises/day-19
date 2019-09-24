@@ -1,0 +1,33 @@
+html {
+    font-size: 18px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+[data-weather] {
+    margin:  20px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid;
+    justify-content: space-around;
+    margin: auto;
+}
+
+[data-weather] header {
+    margin: auto;
+}
+
+[data-weather] header h2 {
+    align-self: auto;
+}
+
+[data-weather] div {
+    padding: 20px;
+    border: 1px solid;
+}
+
+#icon {
+    width: 3em;
+}
