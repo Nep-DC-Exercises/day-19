@@ -127,5 +127,9 @@ function getWeather(location) {
     })
 }
 
-// Loads information on page load
-getWeather('Kansas City')
+//  IIFE 
+(function(){
+    const defaultCity = "Kansas City";
+    getWeather(defaultCity);
+})();
+

@@ -12,6 +12,7 @@ form.addEventListener("submit", function(event){
 
 clear.addEventListener("click", function(event){
     event.preventDefault()
+    userInput.value = ""
     weatherDiv.innerHTML = ""
 })
 

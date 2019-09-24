@@ -1,9 +1,5 @@
-/* html {
-    font-size: 18px;
-}
-
-.wrapper {
-    display: flex;
+html {
+    font-size: 10px;
 }
 
 [data-weather] {
@@ -13,21 +9,20 @@
     border: 5px solid;
     justify-content: space-around;
     margin: auto;
+    font-size: 1.8rem;
 }
 
 [data-weather] header {
     margin: auto;
 }
 
-[data-weather] header h2 {
-    align-self: auto;
+img {
+    width: 100px;
 }
 
-[data-weather] div {
-    padding: 20px;
-    border: 1px solid;
+form {
+    margin: 3rem;
 }
-
-#icon {
-    width: 3em;
-} */
+label {
+    font-size: 1.8rem;
+}
