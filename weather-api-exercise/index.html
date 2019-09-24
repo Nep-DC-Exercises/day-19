@@ -8,43 +8,14 @@
     <title>Weather API</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div data-weather>
-            <header>
-                <h1>Weather API Practice</h1>
-                <h2>Current Conditions
-                    <img style="display: block" id="icon" src=""></img>
-                </h2>
-            </header>
-
-            <div>
-                <h3>Location</h3>
-                <p id="location"></p>
-            </div>
-
-            <div>
-                <h3>Temperature</h3>
-                <p id="temp"></p>
-            </div>   
-            
-            <div>
-                <h3>Wind Speed(mph)</h3>
-                <p id="windSpeed"></p>
-            </div>
-
-            <div>
-                <h3>Sunrise & Sunset Times</h3>
-                <p id="sunRise">Sunrise = </p>
-                <p id="sunSet">Sunset = </p>
-            </div>
-
-            <div>
-                <h3>Map</h3>
-                <iframe width="600" height="450" id="map" src=""></iframe>
-            </div>
-        </div>
-    </div>
-
+    <form action="#" id="cityForm">
+        <label for="city">Enter City:</label>
+        <input type="text" id="cityName" name="name">
+        <button>Submit</button>
+        <button id="clear">Clear</button>
+    </form>
+    <div data-weather></div>
+    <script src="form.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
