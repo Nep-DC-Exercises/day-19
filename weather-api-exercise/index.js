@@ -85,6 +85,7 @@ function sunInfo(object) {
 
     let c = createHeader("Sunset")
     let d = document.createElement("p")
+    let e = document.createElement("hr")
     
     let today = new Date();
     let dd = String(today.getDate()).padStart(2, "0");
@@ -109,7 +110,7 @@ function sunInfo(object) {
     b.innerHTML = dateString + riseTimeStr
     d.innerHTML = dateString + setTimeStr
 
-    weatherDiv.append(a,b,c,d)
+    weatherDiv.append(a,b,c,d,e)
 }
 
 
